@@ -3,7 +3,7 @@ import time
 from bs4 import BeautifulSoup
 
 # Loop through profile pages 1-9000
-for profile_number in range(1, 9001):
+for profile_number in range(1, 15000):
     # Make the request to the profile page
     url = f"https://www.brickplanet.com/profile/{profile_number}"
     response = requests.get(url)
@@ -25,6 +25,6 @@ for profile_number in range(1, 9001):
             f.write(f"ID: {profile_id} Username: {username}\n")
 
         # Wait for 3 seconds before making the next request
-        time.sleep(3)
+        time.sleep(1.5)
     else:
         print(f"Error: Could not retrieve profile {profile_number}")
