@@ -4,7 +4,7 @@ List of BrickPlanet .py and javascript codes I have made.
 
 # Username & ID Scalper
 
-Gets the username and ID of every user on brick-planet and puts it in the users.tx file.
+Gets the username and ID of every user on brick-planet and puts it in the users.tx file. (Please Note: If you get errors for users, change the time.wait(1.5) to 2 or 2.5)
 
 # Instilation of U&I Scalper
 
